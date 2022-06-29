@@ -1,0 +1,8 @@
+environments:
+  default:
+    secrets:
+      - ./secrets.yaml
+
+releases:
+  - name: hewwo
+    chart: ./hewwo
